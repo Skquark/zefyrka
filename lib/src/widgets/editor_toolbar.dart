@@ -269,7 +269,7 @@ Widget defaultToggleStyleButtonBuilder(
           ? theme.primaryIconTheme.color
           : theme.iconTheme.color
       : theme.disabledColor;
-  final fillColor = isToggled ? theme.toggleableActiveColor : theme.canvasColor;
+  final fillColor = isToggled ? theme.colorScheme.secondary : theme.canvasColor;
 
   if (child == null) {
     if (icon != null) {
